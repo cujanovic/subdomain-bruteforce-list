@@ -3,7 +3,8 @@
 # subdomain bruteforce list
 
 ### Big list for subdomain bruteforcing:
-all.txt
+all.txt - size: 676930921 - sha256sum: a3de12707176a66992e7f3086afcffef990a39577f7d4c68ebd6c5d63cb6cc4f
 
-### Smaller list:
-https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/f58e82c9abfa46a932eb92edbe6b18214141439b/all.txt
+`wget "https://localdomain.pw/subdomain-bruteforce-list/all.txt.zip&ver=676930921" -O all.txt && unzip all.txt.zip`
+
+`wc -l all.txt -> 34040422`
